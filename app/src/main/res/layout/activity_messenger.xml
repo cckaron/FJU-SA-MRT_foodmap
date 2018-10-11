@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/user_fragment_list_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/item_message_iv_menu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/item_signature_iv_menu_defaul" />
+
+        <TextView
+            android:id="@+id/item_message_tv_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:text="2018-06-29 09:10:10"
+            android:textColor="#acabab" />
+
+        <ImageView
+            android:id="@+id/item_message_iv_vatar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_message_tv_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_message_tv_nickname1"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@+id/item_message_iv_menu1"
+            android:layout_toRightOf="@+id/item_message_iv_vatar1"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="測試好了嗎？"
+            android:textColor="#504f4f"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/item_message_tv_nickname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_message_tv_content1"
+            android:layout_alignParentTop="true"
+            android:text="黃政諺"
+            android:textColor="#333333"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/item_message_iv_menu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/item_signature_iv_menu_defaul" />
+
+        <TextView
+            android:id="@+id/item_message_tv_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:text="2018-06-27 10:10:10"
+            android:textColor="#acabab" />
+
+        <ImageView
+            android:id="@+id/item_message_iv_vatar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_message_tv_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_message_tv_nickname2"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@+id/item_message_iv_menu2"
+            android:layout_toRightOf="@+id/item_message_iv_vatar2"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="加油做SA，待會一起吃飯"
+            android:textColor="#504f4f"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/item_message_tv_nickname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_message_tv_content2"
+            android:layout_alignParentTop="true"
+            android:text="陳亦芃"
+            android:textColor="#333333"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/item_message_iv_menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/item_signature_iv_menu_defaul" />
+
+        <TextView
+            android:id="@+id/item_message_tv_time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:text="2018-06-21 20:34:56"
+            android:textColor="#acabab" />
+
+        <ImageView
+            android:id="@+id/item_message_iv_vatar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_message_tv_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_message_tv_nickname3"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@+id/item_message_iv_menu3"
+            android:layout_toRightOf="@+id/item_message_iv_vatar3"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="明天打不打球"
+            android:textColor="#504f4f"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/item_message_tv_nickname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_message_tv_content3"
+            android:layout_alignParentTop="true"
+            android:text="洪貫耘"
+            android:textColor="#333333"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/item_message_iv_menu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/item_signature_iv_menu_defaul" />
+
+        <TextView
+            android:id="@+id/item_message_tv_time4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:text="2018-06-20 10:10:10"
+            android:textColor="#acabab" />
+
+        <ImageView
+            android:id="@+id/item_message_iv_vatar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_message_tv_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_message_tv_nickname4"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@+id/item_message_iv_menu4"
+            android:layout_toRightOf="@+id/item_message_iv_vatar4"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="SA的進度怎麼樣了"
+            android:textColor="#504f4f"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/item_message_tv_nickname4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_message_tv_content4"
+            android:layout_alignParentTop="true"
+            android:text="李誠成"
+            android:textColor="#333333"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/item_message_iv_menu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/item_signature_iv_menu_defaul" />
+
+        <TextView
+            android:id="@+id/item_message_tv_time5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:text="2018-6-19 12:33:35"
+            android:textColor="#acabab" />
+
+        <ImageView
+            android:id="@+id/item_message_iv_vatar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_message_tv_content5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_message_tv_nickname5"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@+id/item_message_iv_menu5"
+            android:layout_toRightOf="@+id/item_message_iv_vatar5"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="6-29驗收SA哦！"
+            android:textColor="#504f4f"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/item_message_tv_nickname5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_message_tv_content5"
+            android:layout_alignParentTop="true"
+            android:text="吳濟聰"
+            android:textColor="#333333"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+</LinearLayout>

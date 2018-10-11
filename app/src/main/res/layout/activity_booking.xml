@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/grey_border_bottom"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="383dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:paddingTop="10pt"
+            android:text="BOOKING"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="27dp" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_below="@id/relLayout0"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/grey_border_bottom"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="308dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_display_name" />
+
+        <EditText
+            android:id="@+id/booking_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:background="@null"
+            android:hint="預訂人數"
+            android:inputType="number" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relLayout1"
+        android:background="@drawable/grey_border_bottom"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="308dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_description" />
+
+        <EditText
+            android:id="@+id/booking_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:background="@null"
+            android:hint="預訂時間"
+            android:inputType="time" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relLayout2"
+        android:background="@drawable/grey_border_bottom"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="258dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_description" />
+
+        <EditText
+            android:id="@+id/booking_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:background="@null"
+            android:hint="預訂日期"
+            android:inputType="date" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@+id/relLayout3"
+        android:background="@drawable/grey_border_bottom"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="180dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_web" />
+
+        <EditText
+            android:id="@+id/booking_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:background="@null"
+            android:hint="預訂者電話"
+            android:inputType="number|phone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/relLayout4"
+        android:background="@drawable/grey_border_bottom"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_username" />
+
+        <EditText
+            android:id="@+id/booking_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:background="@null"
+            android:hint="預訂者姓名" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relLayout5"
+        android:background="@drawable/grey_border_bottom"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp">
+
+
+        <Button
+            android:id="@+id/booking_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:text="確認送出"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="479dp" />
+
+        <Button
+            android:id="@+id/booking_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="44dp"
+            android:text="取消"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="477dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
